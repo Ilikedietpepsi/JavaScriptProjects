@@ -26,6 +26,7 @@ function addWeatherToPage(data) {
     weather.classList.add('weather');
     weather.innerHTML = `
     <h3>${cityname}</h3>
+    <h6>${data.weather[0].main}</h6>
     <h2>${temp}°C</h2>
     <h6>H: ${hi}°C  L: ${low}°C</h6>
     <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png" />

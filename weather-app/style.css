@@ -33,11 +33,11 @@ input:focus {
 .weather {
     font-size: 2rem;
     text-align: center;
+    line-height: 0.5;
+    align-items: center;
 }
 
 .weather h2 {
-    display: flex;
-    align-items: center;
     margin-bottom: 0;
 }
 
